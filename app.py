@@ -6,7 +6,7 @@ from PIL import Image
 # Load model
 model = tf.keras.models.load_model("digit_model.h5")
 
-st.title("Handwritten Digit Recognitions by Nadish.title")
+st.title("Handwritten Digit Recognitions by Nadish")
 st.write("Upload an image of a handwritten digit (0–9) and I'll predict it!")
 
 uploaded_file = st.file_uploader("Choose an image...", type=["png", "jpg", "jpeg"])
